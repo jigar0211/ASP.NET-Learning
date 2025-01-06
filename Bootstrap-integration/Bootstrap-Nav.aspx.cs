@@ -11,7 +11,15 @@ namespace Bootstrap_integration
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if (!IsPostBack)
+            {
+                lblSelectedCity.Text = "Please select a city.";
+            }
+        }
+        protected void ddlCities_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            string selectedCity = ddlCities.SelectedValue;
+            lblSelectedCity.Text = string.IsNullOrEmpty(selectedCity) ? "No city selected." : $"You selected: {selectedCity}";
         }
     }
 }
