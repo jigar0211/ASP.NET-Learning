@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap-integration", "Bo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multi-view-controller", "multi-view-controller\multi-view-controller.csproj", "{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Masterpage", "Masterpage\Masterpage.csproj", "{8987EEF3-4E5B-4DC4-A91E-57B02CEEA81A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8987EEF3-4E5B-4DC4-A91E-57B02CEEA81A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8987EEF3-4E5B-4DC4-A91E-57B02CEEA81A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8987EEF3-4E5B-4DC4-A91E-57B02CEEA81A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8987EEF3-4E5B-4DC4-A91E-57B02CEEA81A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

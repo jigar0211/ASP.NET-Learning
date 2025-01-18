@@ -1,0 +1,43 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="MasterPage.Master.cs" Inherits="Masterpage.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title>My Site</title>
+    <link href="app_themes/default/StyleSheet.css" rel="stylesheet" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <form id="form1" runat="server">
+        <div style="width: 800px; margin: 0 auto; border: 1px solid #ccc;">
+            <div style="background-color: #f4f4f4; padding: 10px;">
+                <img src="Images/mysite-logo.png" alt="MySite" style="float: left; width: 120px;" />
+                <div style="float: right; text-align: right;">
+                    <p><strong>NAME</strong>: abc</p>
+                    <p><strong>EMAIL ID</strong>: abc@gmail.com</p>
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+            <div style="display: flex;">
+                <div style="width: 20%; padding: 10px; border-right: 1px solid #ccc;">
+                    <nav>
+                        <ul style="list-style: none; padding: 0;">
+                            <li><a href="Resume.aspx">Resume</a></li>
+                            <li><a href="PhotoGallery.aspx">Photo Gallery</a></li>
+                            <li><a href="ContactUs.aspx">Contact Us</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div style="width: 80%; padding: 10px;">
+                    <asp:ContentPlaceHolder ID="MainContent" runat="server"></asp:ContentPlaceHolder>
+                </div>
+            </div>
+            <footer style="text-align: center; padding: 10px; background-color: #f4f4f4;">
+                © 2012: ALL RIGHTS ARE RESERVED
+            </footer>
+        </div>
+    </form>
+</body>
+</html>
