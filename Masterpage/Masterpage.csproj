@@ -67,10 +67,12 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="ad2.jpg" />
     <Content Include="ContactUs.aspx" />
     <Content Include="PhotoGallery.aspx" />
     <Content Include="Resume.aspx" />
     <Content Include="App_Themes\Default\StyleSheet.css" />
+    <Content Include="ad1.png" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
