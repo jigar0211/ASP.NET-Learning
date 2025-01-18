@@ -5,6 +5,8 @@ VisualStudioVersion = 17.12.35527.113
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bootstrap-integration", "Bootstrap-integration\Bootstrap-integration.csproj", "{97ACFEFA-6EEA-4BCC-8AD9-AD40E2D0BAE5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "multi-view-controller", "multi-view-controller\multi-view-controller.csproj", "{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{97ACFEFA-6EEA-4BCC-8AD9-AD40E2D0BAE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{97ACFEFA-6EEA-4BCC-8AD9-AD40E2D0BAE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{97ACFEFA-6EEA-4BCC-8AD9-AD40E2D0BAE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B3A9306-BBB9-4724-B8FE-2907942F6AD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
